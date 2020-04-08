@@ -1579,12 +1579,12 @@ fieldset[disabled] .navbar-main .btn-link:focus {
 }
 /* QUICK SHADOW CLASSES (sht = shadow top; shb = shadow bottom; shl = shadow left; shr = shadow right) */
 .sht-1 {
-  background-image: url('..//images/shadows/shadow-1.png');
+  background-image: image-url('..//images/shadows/shadow-1.png');
   background-repeat: no-repeat;
   background-position: top center;
 }
 .shb-1 {
-  background-image: url('..//images/shadows/shadow-1.png');
+  background-image: image-url('..//images/shadows/shadow-1.png');
   background-repeat: no-repeat;
   background-position: bottom center;
 }
@@ -2915,7 +2915,7 @@ footer .form-footer .form-control[placeholder] {
   color: #2b2b2b;
 }
 footer .col-contact {
-  background-image: url(../../images/elements/contact-map-2.png);
+  background-image: image-url(../../images/elements/contact-map-2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -11126,7 +11126,7 @@ body {
 }
 /* Desktop Parallax Photo */
 @media (min-width: 772px) {
-  /*.parallax-section-1 { background-image: url('../images/backgrounds/parallax-bg-3.jpg'); } */
+  /*.parallax-section-1 { background-image: image-url('../images/backgrounds/parallax-bg-3.jpg'); } */
 }
 /* Mobile Parallax Photo */
 @media (max-width: 767px) {
@@ -11892,7 +11892,7 @@ img.profile-img{
   background-color: rgba(31, 58, 147, 0.8);
   background-repeat: no-repeat;
   background-size: 32px 64px;
-  background-image: url("../images/icons/svg/google-maps/icon-controller.svg");
+  background-image: image-url("../images/icons/svg/google-maps/icon-controller.svg");
 }
 .no-touch #map-zoom-in:hover,
 .no-touch #map-zoom-out:hover {
@@ -12438,7 +12438,7 @@ img.profile-img{
 /* WELCOME PAGE */
 .welcome-page {
   background-color: #FFF;
-  background-image: url('../images/elements/contact-map-1.png');
+  background-image: image-url('../images/elements/contact-map-1.png');
   background-repeat: no-repeat;
   background-position: center right;
 }
